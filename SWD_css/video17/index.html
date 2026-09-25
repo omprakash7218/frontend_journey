@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTOR --omprakashcn311</title>
+    <style>
+        /* ELEMENT SELECTOR */
+        h3{
+            background-color: lightblue;
+        }
+        /* CLASS SELECTOR */
+        #red{
+            background-color: red;
+        }
+        /* ID SELECTOR */
+        .green{
+            background-color: chartreuse;
+        }
+        /* CHILD SELECTOR */
+        div > p{
+            color: blue;
+            background-color: brown;
+        }
+        /* DECENDEND SELECTOR - child , grand child or any child */
+        div article{
+            background-color: red;
+
+        }
+        /* UNIVERSAL SELECTOR */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* PSUEDO SELECTOR */
+        a:visited{
+            color: chartreuse;
+        }
+        a:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h3>Different way to select for css styling</h3>
+    <div id="red">I am a div</div>
+    <div class="green">I am another div</div>
+    <div>
+        <div>I am another para</div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum eius ducimus minima aut eveniet blanditiis ipsum magni velit illo cum facere odio ea consequuntur in, mollitia saepe iure, veniam vero!</p></div>
+
+    <div>
+        <p>
+            <article>
+                Hello I am decendent of div 
+            </article>
+        </p>
+    </div>
+
+    <a href="https://www.google.com" target="_blank">Google</a>
+</body>
+</html>

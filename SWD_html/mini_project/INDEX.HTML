@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal Anchor Navigation Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            background: #f4f4f4;
+            padding: 10px;
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        /* Added spacing so scrolling effect is visible */
+        section {
+            margin-top: 60px;
+            padding: 20px;
+            height: 600px; 
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION MENU WITH INTERNAL LINKS -->
+    <nav>
+        <a href="#section-introduction">Introduction</a>
+        <a href="#section-features">Features</a>
+        <a href="#section-contact">Contact Us</a>
+    </nav>
+
+    <!-- TARGET DESTINATIONS USING MATCHING ID ATTRIBUTES -->
+    <section id="section-introduction">
+        <h2>Introduction Section</h2>
+        <p>This is the introduction. Clicking the "Introduction" link at the top brings you directly here.</p>
+    </section>
+
+    <section id="section-features">
+        <h2>Features Section</h2>
+        <p>This is the features section. Notice how the URL changes to include #section-features when viewing this section.</p>
+    </section>
+
+    <section id="section-contact">
+        <h2>Contact Us Section</h2>
+        <p>This is the contact section located at the bottom of the page document.</p>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags -- omprakshcn311</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1">Forms and Input Tags -- omprakash7218</h1>
+    <p> What's up </p>
+    <form action="get">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username" placeholder="Enter your Username">
+        <br>
+        <label for="address">Address: </label>
+        <input type="text" name="address" placeholder="Enter your Address"> 
+
+        <div>
+        <label for="age">Age: </label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        </div>
+
+        <label for="comment">Comments</label>
+        <input type="text" name="comment" placeholder="Comments here: ">
+
+        <div>
+        <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+        <label for="subscribe">Subscribe to my blog.</label>
+        </div>
+
+        <div>
+        <label for="comments">Your comments here.....</label>
+        <br>
+        <textarea name="comments" id="comments" rows="4" cols="25"></textarea>
+        </div>
+        <div>
+        <select name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+        </select>
+        </div>
+        <div>
+            <!--Combining Textarea and Select-->
+        <form action="/submit">
+        <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea>
+        <br>
+        <select name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+        </form>
+        </div>
+    </form>
+</body>
+</html>

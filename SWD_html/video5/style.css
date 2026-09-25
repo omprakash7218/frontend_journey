@@ -1,0 +1,13 @@
+td{
+    border: 2px solid black;
+}
+
+th{
+    border: 3px solid rgb(74, 241, 174)
+}
+ul{
+    border: 1px solid red;
+}
+caption{
+    border: 1px solid green
+}
