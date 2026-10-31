@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-transform: capitalize;
+    font-family: "Baloo Bhai 2";
+    color: yellowgreen;
+    text-align: center;
+    
+}
+
+#outer{
+    font-size: 25px
+}
+
+
+ #inner{
+    font-size: 10px;
+}
+
