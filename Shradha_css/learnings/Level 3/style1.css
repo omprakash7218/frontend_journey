@@ -1,0 +1,23 @@
+#box1 {
+    background-color: green;
+    height: 200px;
+    width: 50em;
+    font-size: 15px;
+    
+}
+
+
+#box2 {
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+    font-size: 1.5em;
+    width: 50em;
+}
+
+#vh {
+    height: 50vh;
+    width: 50vh;
+    background-color: aquamarine;
+    font-size: 4rem;
+}

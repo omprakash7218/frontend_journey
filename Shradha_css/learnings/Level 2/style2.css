@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+} 
+/* display: none   ---> it erase the given element from the existance itself. */
+/* visibility : hidden   --->  it keeps the space for the element that was hidden */   
+
+#alpha {
+    background-color: rgba(255, 0, 0, 1);
+}
