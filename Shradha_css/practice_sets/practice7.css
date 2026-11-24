@@ -1,0 +1,30 @@
+div {
+    width: 100px;
+    height: 100px;
+
+
+}
+
+@media (max-width : 300px) {
+    #q1 {
+        background-color: green;
+    }
+}
+
+@media (min-width : 300px) and (max-width : 400px) {
+    #q1 {
+        background-color: pink;
+    }
+}
+
+@media (min-width : 400px) and (max-width : 600px) {
+    #q1 {
+        background-color: red;
+    }
+}
+
+@media (min-width : 600px) {
+    #q1 {
+        background-color: blue;
+    }
+}

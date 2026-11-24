@@ -1,0 +1,29 @@
+div {
+    background-color: aquamarine;
+    /* animation-name: colorAnimation;
+    animation-duration: 4s;
+    animation-timing-function:ease-in;
+    animation-delay: 0.23s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    /* animation shorthand   animation: (animationName)  (duration) (timing-function) (delay) (iteration-count) (direction)*/ 
+    animation: colorAnimation .5s ease-in-out 0.23s infinite alternate;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-color: rgb(158, 10, 10);
+    background-size: cover;
+
+    
+}
+
+@keyframes colorAnimation {
+    0% {transform: translateX(0px) translateY(0px);}
+    20% {transform: translateX(100px) translateY(50px);}
+    40% {transform: translateX(200px) translateY(0px);}
+    60% {transform: translateX(300px) translateY(50px);}
+    80% {transform: translateX(400px) translateY(0px);}
+    100% {transform: translateX(500px) translateY(50px);}
+    
+}
+

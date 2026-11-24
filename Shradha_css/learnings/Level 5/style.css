@@ -1,0 +1,17 @@
+div {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+
+@media (min-width : 600px){
+    div {
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 450px) {
+    div {
+        background-color: olive;
+    }
+}

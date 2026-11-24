@@ -1,0 +1,31 @@
+    /* <!-- Transition ,transform and animation (Advanced CSS) -->
+    <!-- Transition : Transitions enable you to define the transition between two states of an element. -->
+    <!-- transition-property : property you want ot transition (font-size,width,etc. -->
+    <!-- transition-duration : 2s / 5ms .. -->
+    <!-- transition-timing-function : ease-in / ease-out / linear / steps .. -->
+    <!-- transition-delay : 2s / 5ms .. -->
+      */
+
+    /* transition short hand  */
+    /* transition : (property)all , (duration)2s, (timing-function)ease-in, (delay)2s */
+
+div {
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    /* transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+    transition : all 2s ease-in 1s;
+
+}
+
+div:hover {
+    background-color: red;
+    background-size: cover;
+    color: blue;
+}
+
+

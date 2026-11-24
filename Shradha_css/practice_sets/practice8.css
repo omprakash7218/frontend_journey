@@ -1,0 +1,18 @@
+div {
+    height: 50px;
+    width: 50px;
+    /* border-radius: 50%; */
+    background-color: orangered;
+    border:solid 4px rgb(50, 196, 128);
+    border-left: 4px solid black;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    animation: reloader 2s ease-in-out 0s infinite normal ;
+    
+} 
+
+@keyframes reloader {
+    0%{rotate: 0deg;}
+    100%{rotate: 360deg;}
+}
